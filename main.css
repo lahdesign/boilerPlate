@@ -5,8 +5,15 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     }
-    .front-card { grid-area: 1 / 1 / 2 / 2; } 
-    .back-card { grid-area: 1 / 1 / 2 / 2; } 
+    .front-card { 
+        grid-area: 1 / 1 / 2 / 2; 
+        background-color:red;
+        z-index: 3;} 
+    .back-card { 
+        grid-area: 1 / 1 / 2 / 2; 
+        background-color:blue;
+        z-index: 1;
+        } 
 
     .card{
         width:400px;
